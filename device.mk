@@ -391,6 +391,7 @@ PRODUCT_PACKAGES += \
     DeviceAsWebcamResXiaomi \
     FrameworksResCommon \
     FrameworksResFuxi \
+    NfcResFuxi \
     SettingsResCommon \
     SettingsOverlayChina \
     SettingsOverlayGlobal \
