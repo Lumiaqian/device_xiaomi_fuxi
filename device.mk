@@ -358,7 +358,8 @@ PRODUCT_PACKAGES += \
     liblz4.vendor \
     libjsoncpp.vendor \
     libsqlite.vendor \
-    libusbhost.vendor
+    libusbhost.vendor \
+    dolbycodec_shim
 
 # Network
 PRODUCT_PACKAGES += \
