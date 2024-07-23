@@ -14,9 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/fuxi/device.mk)
 
-# Inherit from Gapps
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
 ## Device identifier
 PRODUCT_DEVICE := fuxi
 PRODUCT_NAME := lineage_fuxi
@@ -32,12 +29,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Xiaomi/fuxi_global/fuxi:13/TKQ1.221114.001/V816.0.5.0.UMCMIXM:user/release-keys
 
-# GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Matrixx
+# ROM FLAGS
 MATRIXX_BUILD_TYPE := Unofficial
 MATRIXX_MAINTAINER := 🔻Zinger🔻
 MATRIXX_CHIPSET := SM8550-AB
@@ -48,16 +44,13 @@ TARGET_USES_MIUI_CAMERA := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 
-# Gapps
+# GAPPS
 WITH_GMS := true
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
-
-# Nuke AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
-
-# Nuke Auxio
 TARGET_EXCLUDES_AUXIO := true
+
 # PREBUILTS 
 INCLUDE_PREBUILTS := true
