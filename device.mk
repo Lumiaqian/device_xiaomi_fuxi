@@ -505,9 +505,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/xiaomi \
-    kernel/xiaomi/sm8550 \
-    kernel/xiaomi/sm8550-modules
+    hardware/xiaomi
 
 # Telephony
 ifeq ($(WITH_GMS),true)
