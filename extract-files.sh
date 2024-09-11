@@ -92,6 +92,9 @@ function blob_fixup() {
         vendor/lib64/c2.dolby.client.so)
             grep -q "dolbycodec_shim.so" "${2}" || "${PATCHELF}" --add-needed "dolbycodec_shim.so" "${2}"
             ;;
+        vendor/lib64/libqcodec2_core.so)
+            grep -q "qcodec2_shim.so" "${2}" || "${PATCHELF}" --add-needed "qcodec2_shim.so" "${2}"
+            ;;
     esac
 }
 
