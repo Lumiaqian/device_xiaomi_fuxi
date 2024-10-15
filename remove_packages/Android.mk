@@ -19,7 +19,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     SpeechServicesByGoogle \
     talkback \
     VisionBarcodePrebuilt \
-    AndroidAutoStub \
     PrebuiltGmsCoreSc_AdsDynamite \
     PrebuiltGmsCoreSc_CronetDynamite \
     PrebuiltGmsCoreSc_DynamiteLoader \
@@ -29,7 +28,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     PrebuiltGmsCoreSc_MapsDynamite \
     PrebuiltGmsCoreSc_MeasurementDynamite \
     GoogleRestore \
-    Velvet \
     WellbeingPrebuilt \
     GoogleFeedback
 
