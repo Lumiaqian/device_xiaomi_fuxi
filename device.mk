@@ -188,7 +188,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    android.hardware.biometrics.fingerprint@2.3 \
     libudfpshandler
 
 PRODUCT_COPY_FILES += \
@@ -587,8 +587,8 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti \
-    android.hardware.usb.gadget@1.2-service-qti
+    android.hardware.usb@1.3 \
+    android.hardware.usb.gadget@1.2
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
